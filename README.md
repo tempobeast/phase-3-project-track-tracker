@@ -18,9 +18,15 @@ In the future there will be two separate interfaces, one for the coach and one f
 
 ## Running the server 
 
-To run the server locally:  
+To run the server locally from the backend directory:  
+
+```bundle install```
+
+```bundle exec rake server```
+
+To run the app from the frontend directory:
 
 ```npm install```
 
-```npm run dev```
+```npm start```
 
